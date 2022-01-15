@@ -1,0 +1,405 @@
+
+@import url(./font.css);
+body{
+    margin: none;
+    font-family: 'Roboto';
+}
+.hero-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 2em;
+    padding: 0 4em;
+}
+
+.logo-tag a {
+    color: black;
+    font-size: 1.8em;
+    text-decoration: none;
+    font-weight: bolder;
+}
+.logo-tag a:hover {
+    color: blueviolet;
+    font-size: 1.9em;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.logo-tag a span{
+    color: blueviolet;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 0 3em;
+    
+}
+
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+nav ul li a:hover{
+    color: blueviolet;
+    font-weight:bolder ;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.login-button {
+    padding-left: 2em;
+}
+
+.login-button .button-login{
+    margin-left: 2em;
+    background-image: linear-gradient(blue, blueviolet);
+    border: none;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 0.9em;
+    cursor: pointer;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .3);
+}
+
+.login-button .button-login:hover{
+    background-image: linear-gradient(white, white);
+    padding: 7px;
+    color: blueviolet;
+    border: blueviolet 3px solid;
+}
+
+.banner-area {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5em;
+}
+
+
+.banner-img img {
+    width: 30em;
+}
+
+.intro h2{
+    font-size: 3em;
+    font-weight: normal;
+}
+
+.intro h1 {
+    font-size: 3em;
+    font-weight: normal;
+}
+
+.intro p {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.banner-area {
+    padding: 0 4em 0 6em;
+}
+
+
+.hire{
+    padding: 12px;
+    background-image: linear-gradient(blue, blueviolet);
+    box-shadow: 0 0 5px rgba(0, 0, 0, .3);
+    border: none;
+    margin-top: 1.5em;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.hire:hover{
+    background-image: linear-gradient(white, white);
+    color: blueviolet;
+    border:2px blueviolet solid;
+    padding: 10px;
+
+}
+
+.getit{
+    color: blueviolet;
+    padding: 10px;
+    margin: 3em;
+    background-color: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .3);
+    border:2px blueviolet solid;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.getit:hover{
+    background-image: linear-gradient(blue, blueviolet);
+    color: white;
+    border-width: 10px;
+    border: none;
+    padding: 12px;
+}
+
+.introduction {
+    display: flex;
+    justify-content: spce-between;
+}
+
+.introduction{
+    margin: 0 5em 0 5em;
+}
+
+.about-us-area h1{
+    margin-bottom: 1.5em;
+}
+
+.about-us-area{
+    margin-top: 5em;
+}
+
+.about-us-image img{
+    width: 35em;
+}
+
+.my-experience-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em 5em 2em 5em;
+}
+
+.first-line img, .second-line img,.third-line img {
+    padding: 1.5em;
+}
+
+.expe{
+    display: flex;
+    align-items: center; 
+    margin-top: -4em;
+}
+
+.expe h1{
+    font-size: 6em;
+}
+
+.experience-area{
+    background-color: pink;
+    border-radius: 12px;
+    padding: 1em;
+    padding-bottom: em;
+}
+
+.phone-coo{
+    margin-top: 3em;
+}
+
+.phone-coo p {
+    color: blueviolet;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.expe h1{
+    color: rgb(97, 11, 40);
+}
+.phone-coo a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.expe p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.about-us-area h1 span{
+    color: green;
+}
+
+.anchor a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 0 4em 5em 0;
+    margin-bottom: 5em;
+}
+
+.anchor {
+    margin: 4em 0 4em 0;
+}
+
+section .fir-line img{
+    width: 10px;
+}
+
+.recently-tag {
+    color: green;
+    font-weight: bolder; 
+    font-size: 3em;
+    margin-top: 2em;
+
+    
+}
+
+.a, .b, .c, .d, .e, .f, .g, .h, .i {
+    width: 10em;
+    padding: 0 3em 1em 0;
+}
+
+.recently-done-area {
+    padding-left: 5em;
+}
+
+.services-tag {
+    margin-top: 3em;
+    text-align: center;
+}
+
+.services p {
+    text-align: center;
+}
+
+.theservices {
+    display: flex;
+    justify-content: space-between;
+    padding: 3em 12em ;
+}
+
+.uidesign, .webdev, .webdesign, .graphics, .digital, .compter {
+    background-color: rgb(236, 236, 236);
+    margin: 8px;
+    padding: 4em 0.9em 5px 0.9em;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.mycli {
+    text-align: center;
+    margin: 2em 0 1em 0;
+}
+.client1 {
+    margin: 2em 0 4em 0;
+    display: flex;
+    width: 25em;
+    height: 10em;
+    background-color: white ;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .6);
+    padding: 10px;
+    border-radius: 7px;
+}
+.client2 {
+    margin: 2em 0 4em 0;
+    display: flex;
+    width: 30em;
+    background-color: white ;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .6);
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.client1 p {
+    padding-left: 2em;
+}
+
+.client2 p {
+    padding-left: 2em;
+}
+
+.client1 img{
+    width: 10em;
+}
+
+.client2 {
+    width: 10em;
+
+}
+
+.client2 {
+    display: flex;
+    width: 25em;
+    height: 10em;
+}
+.client2 img{
+    width: 10em;
+}
+
+.what-client{
+    display: flex;
+    justify-content: space-around;
+}
+
+.client1 .pii{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.client2 .pi{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.what-client-say {
+    padding: 0 5em 0 5em;
+}
+
+.subscribe-area {
+    background-image: linear-gradient(blue 75px, blueviolet);
+    margin: 0 15em;
+    padding: 4em;
+    margin-top: 4em;
+    margin-bottom: 4em;
+}
+
+.subscribe-area .get-any {
+    text-align: center;
+    color: white;
+    font-weight:bolder ;
+}
+
+.subscribe-area p{
+    text-align: center;
+    color: white;
+}
+
+.email {
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 0.7em;
+    width: 15em;
+}
+
+.subscribe input {
+    color: black;
+    padding: 0 3em 0 3em;
+    padding: 0.7em;
+    border-radius: 5px;
+    border: none;
+}
+
+.subscribe {
+    align-items: center;
+    padding-left: 9em;
+    padding-top: 3em;
+}
+
+.footer p {
+    text-align: center;    
+}
+
+.footer p a{
+    text-decoration: none;
+    font-size: 1.5em;
+    padding-top: 4em;
+    color: blue;
+    font-weight: bolder;
+}
+
+.footer p a span {
+    color: blueviolet;
+}
+
+.footer .f1 {
+    font-weight: bolder;
+}
